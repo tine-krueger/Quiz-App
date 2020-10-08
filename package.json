@@ -1,7 +1,6 @@
 {
   "name": "css-tooling",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html"
@@ -10,5 +9,14 @@
   "license": "ISC",
   "dependencies": {
     "parcel": "^1.12.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tine-krueger/Quiz-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tine-krueger/Quiz-App/issues"
+  },
+  "homepage": "https://github.com/tine-krueger/Quiz-App#readme",
+  "description": ""
 }
