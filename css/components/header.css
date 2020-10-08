@@ -1,0 +1,12 @@
+
+.header {
+    width: 100%;
+    position: relative;
+    top: 0;
+    background-color: #efefef;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    z-index: 1;
+}
+
