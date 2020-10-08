@@ -1,0 +1,22 @@
+.input__question, .input__answer, .input__add-tags {
+    padding: 0 2em 1.5em;
+    display: block;
+}
+
+.input__question-text, .input__answer-text, .input__add-tags-text {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.input__question-input, .input__answer-input, .input__add-tags-input {
+    width: 100%;
+}
+
+.button__submit-question {
+    display: block;
+    margin: 0 auto;
+    font-size: 1em;
+    padding: 0.5em 2em;
+    border: 2px solid black;
+    background-color: transparent;
+}
