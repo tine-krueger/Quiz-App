@@ -4,7 +4,6 @@ footer {
     background-color: #efefef;
     border-top: 1px solid #ccc;
 }
-
 footer ul {
     padding: 0;
     margin: 0;
@@ -13,14 +12,15 @@ footer ul {
     flex-direction: row;
     justify-content: space-between;
 }
-
 footer li {
     padding: 1em 1em;
     width: 20%;
     text-align: center;
     border-right: 1px solid #ccc;
 }
-
 footer li:last-child {
     border-right: none;
+}
+.footer-icon {
+    width: 50%;
 }
