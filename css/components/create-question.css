@@ -1,0 +1,13 @@
+.input__question, .input__answer, .input__add-tags {
+    padding: 0 2em 1.5em;
+    display: block;
+}
+
+.input__question-text, .input__answer-text, .input__add-tags-text {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.input__question-input, .input__answer-input, .input__add-tags-input {
+    width: 100%;
+}

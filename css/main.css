@@ -2,4 +2,5 @@
 @import './components/header.css';
 @import './components/footer.css';
 @import './components/question-card.css';
+@import './components/create-question.css';
 @import './components/profile.css';
