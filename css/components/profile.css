@@ -11,9 +11,7 @@
     padding: .5em;
     border: 1px solid #000;
     border-radius: 50%;
-}
-.aboutme-box__name {
-    text-align: center;
+    margin-right: 1em;
 }
 
 .skills-tags {
