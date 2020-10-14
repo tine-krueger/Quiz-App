@@ -4,23 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css" />
-    <title>CSS Tooling with Parcel</title>
+    <title>Create Question</title>
 </head>
 <body>
     <header class="header">
-        <h1 class="header-title">App Title</h1>
+        <h1 class="header-title">Create Question</h1>
     </header>
     <main>
-        
+        <form action="">
+            <div class="input__question">
+                <p class="input__question-text">Please add your question</p>
+                <textarea class="input__question-input" name="question-text" cols="" rows="7"></textarea>
+            </div>
+            <div class="input__answer">
+                <p class="input__answer-text">Please add your answer</p>
+                <textarea class="input__answer-input" name="answer-text" cols="" rows="7"></textarea>
+            </div>
+            <div class="input__add-tags">
+                <p class="input__add-tags-text">Please add some tags (separate by ",")</p>
+                <input type="text" class="input__add-tags-input" name="add-tags" value="red, green, blue"></input>
+            </div>
+            <div class="button__submit">
+                <button class="button__submit-question">
+                    SUBMIT
+                </button>
+            </div>
+        </form>
     </main>
-
     <footer>
         <nav>
             <ul>
-                <li>Home</li>
-                <li><a href="bookmarks.html">Book- mark</a></li>
-                <li>Create Question</li>
-                <li>Profile</li>
+                <li>
+                    <a href="index.html">
+                        <img class="footer-icon" src="./images/home.png" alt="home icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="bookmarks.html">
+                        <img class="footer-icon" src="./images/boolmark.png" alt="bookmark icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="create-question.html ">
+                        <img class="footer-icon" src="./images/question.png" alt="question icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html">
+                        <img class="footer-icon" src="./images/profile.png" alt="profile icon">
+                    </a>
+                </li>
             </ul>
         </nav>
     </footer>
