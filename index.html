@@ -11,25 +11,104 @@
         <h1 class="header-title">Quiz App</h1>
     </header>
     <main>
-        <ul class="question-card-list">
-            <li class="question-card">
-                <div class="question-card__bookmark">B</div>
-                <h2 class="question-card__headline">Question</h2>
-            </li>  
-            <li class="question-card">
-                <div class="question-card__bookmark question-card__bookmark--selected">B</div>
-                <h2 class="question-card__headline">Question</h2>
-                <p class="question-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, eos corporis illo cumque consequuntur dignissimos aliquid cum corrupti nostrum fuga quo harum dolore. Nulla esse quae, quod minima obcaecati nemo!</p>
-                <button class="question-card__button">Show Answer</button>
-                <ul class="question-card__tags">
-                    <li class="question-card__tag">Tagx</li>
-                    <li class="question-card__tag">Tagx</li>
-                    <li class="question-card__tag">Tagx</li>
-                    <li class="question-card__tag">Tagx</li>
-                    <li class="question-card__tag">Tagx</li>
+        <div id="home" class="">
+            <ul class="question-card-list">
+                <li class="question-card">
+                    <div class="question-card__bookmark">B</div>
+                    <h2 class="question-card__headline">Question</h2>
+                </li>  
+                <li class="question-card">
+                    <div class="question-card__bookmark question-card__bookmark--selected">B</div>
+                    <h2 class="question-card__headline">Question</h2>
+                    <p class="question-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, eos corporis illo cumque consequuntur dignissimos aliquid cum corrupti nostrum fuga quo harum dolore. Nulla esse quae, quod minima obcaecati nemo!</p>
+                    <button class="question-card__button">Show Answer</button>
+                    <ul class="question-card__tags">
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                    </ul>
+                </li>                                                                                                                                                                                                                                                                      
+            </ul>
+        </div> <!-- #home-->
+
+        <div id="bookmarks">
+            <ul class="question-card-list">
+                <li class="question-card">
+                    <div class="question-card__bookmark question-card__bookmark--selected">B</div>
+                    <h2 class="question-card__headline">Question</h2>
+                    <p class="question-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, eos corporis illo cumque consequuntur dignissimos aliquid cum corrupti nostrum fuga quo harum dolore. Nulla esse quae, quod minima obcaecati nemo!</p>
+                    <button class="question-card__button">Show Answer</button>
+                    <ul class="question-card__tags">
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                    </ul>
+                </li>   
+                <li class="question-card">
+                    <div class="question-card__bookmark question-card__bookmark--selected">B</div>
+                    <h2 class="question-card__headline">Question</h2>
+                    <p class="question-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, eos corporis illo cumque consequuntur dignissimos aliquid cum corrupti nostrum fuga quo harum dolore. Nulla esse quae, quod minima obcaecati nemo!</p>
+                    <button class="question-card__button">Show Answer</button>
+                    <ul class="question-card__tags">
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                        <li class="question-card__tag">Tagx</li>
+                    </ul>
+                </li>                                                                                                                                                                                                                                                                      
+            </ul>
+        </div> <!-- #bookmarks-->
+
+        <div id="create-question">
+            <form action="">
+                <div class="input__question">
+                    <p class="input__question-text">Please add your question</p>
+                    <textarea class="input__question-input" name="question-text" cols="" rows="7"></textarea>
+                </div>
+                <div class="input__answer">
+                    <p class="input__answer-text">Please add your answer</p>
+                    <textarea class="input__answer-input" name="answer-text" cols="" rows="7"></textarea>
+                </div>
+                <div class="input__add-tags">
+                    <p class="input__add-tags-text">Please add some tags (separate by ",")</p>
+                    <input type="text" class="input__add-tags-input" name="add-tags" value="red, green, blue"></input>
+                </div>
+                <div class="button__submit">
+                    <button class="button__submit-question">
+                        SUBMIT
+                    </button>
+                </div>
+            </form>
+        </div> <!-- #create-question-->
+
+        <div id="profile">
+            <div class="profile-box">
+                <div class="aboutme-box">
+                    <img class="aboutme-box__img" src="./images/dummy.png" alt="Vorname Nachnamen">
+                    <h2 class="aboutme-box__name">Vorname Nachname</h2>
+                </div>
+                <p class="aboutme-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed facilis fuga 
+                    ratione ipsa expedita nesciunt ad soluta quis, iure laudantium earum vitae 
+                    sint, ipsum sit culpa exercitationem animi! Aperiam, tempore!
+                </p>
+                <h3>Skills</h3>
+                <ul class="skills-tags">
+                    <li class="skills-tag">Skill 1</li>
+                    <li class="skills-tag">Skill 2</li>
+                    <li class="skills-tag">Skill 3</li>
+                    <li class="skills-tag">Skill 4</li>
                 </ul>
-            </li>                                                                                                                                                                                                                                                                      
-        </ul>
+                <button class="">Logout</button>
+            </div>
+        </div> <!-- #profile-->
+
+
     </main>
     <footer>
         <nav>
