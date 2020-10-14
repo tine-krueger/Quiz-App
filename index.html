@@ -11,7 +11,7 @@
         <h1 class="header-title">Quiz App</h1>
     </header>
     <main>
-        <div id="home" class="hidden">
+        <section id="home">
             <ul class="question-card-list">
                 <li class="question-card">
                     <div class="question-card__bookmark">B</div>
@@ -31,9 +31,9 @@
                     </ul>
                 </li>                                                                                                                                                                                                                                                                      
             </ul>
-        </div> <!-- #home-->
+        </section> <!-- #home-->
 
-        <div id="bookmarks">
+        <section id="bookmarks" class="section--hidden">
             <ul class="question-card-list">
                 <li class="question-card">
                     <div class="question-card__bookmark question-card__bookmark--selected">B</div>
@@ -62,9 +62,9 @@
                     </ul>
                 </li>                                                                                                                                                                                                                                                                      
             </ul>
-        </div> <!-- #bookmarks-->
+        </section> <!-- #bookmarks-->
 
-        <div id="create-question">
+        <section id="create-question" class="section--hidden">
             <form action="">
                 <div class="input__question">
                     <p class="input__question-text">Please add your question</p>
@@ -84,12 +84,12 @@
                     </button>
                 </div>
             </form>
-        </div> <!-- #create-question-->
+        </section> <!-- #create-question-->
 
-        <div id="profile">
+        <section id="profile" class="section--hidden">
             <div class="profile-box">
                 <div class="aboutme-box">
-                    <img class="aboutme-box__img" src="./images/dummy.png" alt="Vorname Nachnamen">
+                    <img class="aboutme-box__img" src="" alt="Vorname Nachnamen">
                     <h2 class="aboutme-box__name">Vorname Nachname</h2>
                 </div>
                 <p class="aboutme-text">
@@ -106,18 +106,19 @@
                 </ul>
                 <button class="">Logout</button>
             </div>
-        </div> <!-- #profile-->
+        </section> <!-- #profile-->
 
 
     </main>
     <footer>
         <nav class="nav">
-            <button id="home" class="nav__button nav__button--home"></button>
-            <button id="bookmarks" class="nav__button nav__button--bookmarks"></button>
-            <button id="create" class="nav__button nav__button--create"></button>
-            <button id="profile" class="nav__button nav__button--profile"></button>
+            <button id="home-button" class="nav__button nav__button--home"></button>
+            <button id="bookmarks-button" class="nav__button nav__button--bookmarks"></button>
+            <button id="create-button" class="nav__button nav__button--create"></button>
+            <button id="profile-button" class="nav__button nav__button--profile"></button>
         </nav>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
 
