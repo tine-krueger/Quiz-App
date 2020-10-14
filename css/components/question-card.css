@@ -45,6 +45,21 @@
     text-transform: uppercase;
 }
 
+.question-card__button:hover {
+   cursor: pointer;
+}
+
+.question-card__button--selected {
+    margin: 0 auto 1em;
+    display: block;
+    padding: .5em 1em;
+    text-transform: uppercase red cursive;
+}
+
+.question-card__button--selected:hover {
+    cursor: pointer;
+}
+
 .question-card__tags {
     display: flex;
     justify-content: flex-start;
