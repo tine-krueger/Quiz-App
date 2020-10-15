@@ -1,25 +1,14 @@
-import addRemove from './components/navigation'
+import navigateTo from './components/navigation'
 
 document
-    .querySelector('#home-button')
-    .addEventListener('click', () => {
-        addRemove('#home')
+    .querySelectorAll('.nav__button')
+    .forEach(element => {
+        console.log(element)
+        element.addEventListener('click', (event) => {
+            event.preventDefault()
+            console.log(element, event)
+            navigateTo(event.target.getAttribute('data-href'))
+        })
     })
+   
 
-document
-    .querySelector('#bookmarks-button')
-    .addEventListener('click', () => {
-        addRemove('#bookmarks')
-    })
-
-document
-    .querySelector('#create-button')
-    .addEventListener('click', () => {
-        addRemove('#create-question')
-    })
-
-document
-    .querySelector('#profile-button')
-    .addEventListener('click', () => {
-        addRemove('#profile')
-    })
